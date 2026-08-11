@@ -7761,15 +7761,6 @@
   components:
   - type: Door
     state: Open
-  - type: physics
-    canCollide: false
-  - type: RadiationBlocker
-    enabled: false
-  - type: DeviceLinkSource
-    ports:
-    - DoorStatus
-    lastSignals:
-      DoorStatus: true
 
 - type: entity
   id: MedievalGatesGear
